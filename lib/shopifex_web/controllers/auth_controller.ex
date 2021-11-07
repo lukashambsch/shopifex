@@ -13,7 +13,7 @@ defmodule ShopifexWeb.AuthController do
   end
   ```
   """
-  @type shop :: %{access_token: String.t(), scope: String.t(), url: String.t()}
+  @type shop :: %{id: integer(), access_token: String.t(), scope: String.t(), url: String.t()}
 
   @doc """
   An optional callback called after the installation is completed, the shop is
